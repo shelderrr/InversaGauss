@@ -29,19 +29,18 @@ namespace InversaGauss
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-            //Se importan los forms
-            Matriz3x3 formulario3x3 = new Matriz3x3();
-            Matriz2x2 formulario2x2 = new Matriz2x2();
             if (rbtnMatriz3x3.Checked == true)
             {
                 MessageBox.Show("Usted ha seleccionado la matriz 3x3.", "Selección", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Matriz3x3 formulario3x3 = new Matriz3x3();
                 formulario3x3.Show();
                 //Esconde el menú para abrir el otro 
                 this.Hide();
             }
             else if (rbtn2x2.Checked == true)
-            {
+            {          
                 MessageBox.Show("Usted ha seleccionado la matriz 2x2.", "Selección", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Matriz2x2 formulario2x2 = new Matriz2x2();
                 formulario2x2.Show();
                 this.Hide();
             }

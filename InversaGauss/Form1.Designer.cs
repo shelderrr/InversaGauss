@@ -131,6 +131,7 @@
             // btnEnviar
             // 
             this.btnEnviar.BackColor = System.Drawing.Color.Brown;
+            this.btnEnviar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEnviar.FlatAppearance.BorderSize = 0;
             this.btnEnviar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnEnviar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
