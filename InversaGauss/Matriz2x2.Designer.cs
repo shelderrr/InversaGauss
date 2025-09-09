@@ -111,6 +111,7 @@
             // lblA1
             // 
             this.lblA1.AutoSize = true;
+            this.lblA1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblA1.Location = new System.Drawing.Point(234, 183);
             this.lblA1.Name = "lblA1";
             this.lblA1.Size = new System.Drawing.Size(23, 16);
@@ -120,6 +121,7 @@
             // lblA2
             // 
             this.lblA2.AutoSize = true;
+            this.lblA2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblA2.Location = new System.Drawing.Point(531, 183);
             this.lblA2.Name = "lblA2";
             this.lblA2.Size = new System.Drawing.Size(23, 16);
@@ -129,6 +131,7 @@
             // lblB1
             // 
             this.lblB1.AutoSize = true;
+            this.lblB1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblB1.Location = new System.Drawing.Point(234, 280);
             this.lblB1.Name = "lblB1";
             this.lblB1.Size = new System.Drawing.Size(23, 16);
@@ -138,6 +141,7 @@
             // lblB2
             // 
             this.lblB2.AutoSize = true;
+            this.lblB2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblB2.Location = new System.Drawing.Point(531, 280);
             this.lblB2.Name = "lblB2";
             this.lblB2.Size = new System.Drawing.Size(23, 16);
@@ -148,7 +152,7 @@
             // 
             this.lblIgual1.AutoSize = true;
             this.lblIgual1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIgual1.Location = new System.Drawing.Point(613, 165);
+            this.lblIgual1.Location = new System.Drawing.Point(613, 172);
             this.lblIgual1.Name = "lblIgual1";
             this.lblIgual1.Size = new System.Drawing.Size(31, 32);
             this.lblIgual1.TabIndex = 37;
@@ -158,7 +162,7 @@
             // 
             this.lblIgual2.AutoSize = true;
             this.lblIgual2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIgual2.Location = new System.Drawing.Point(613, 264);
+            this.lblIgual2.Location = new System.Drawing.Point(613, 269);
             this.lblIgual2.Name = "lblIgual2";
             this.lblIgual2.Size = new System.Drawing.Size(31, 32);
             this.lblIgual2.TabIndex = 38;
@@ -167,7 +171,7 @@
             // txtX1
             // 
             this.txtX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtX1.Location = new System.Drawing.Point(677, 165);
+            this.txtX1.Location = new System.Drawing.Point(677, 177);
             this.txtX1.Name = "txtX1";
             this.txtX1.Size = new System.Drawing.Size(81, 27);
             this.txtX1.TabIndex = 39;
@@ -183,7 +187,7 @@
             // lblX1
             // 
             this.lblX1.AutoSize = true;
-            this.lblX1.Location = new System.Drawing.Point(785, 178);
+            this.lblX1.Location = new System.Drawing.Point(776, 185);
             this.lblX1.Name = "lblX1";
             this.lblX1.Size = new System.Drawing.Size(22, 16);
             this.lblX1.TabIndex = 41;
