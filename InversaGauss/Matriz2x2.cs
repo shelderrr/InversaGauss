@@ -21,8 +21,10 @@ namespace InversaGauss
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Principal menu = new Principal();
+            MessageBox.Show("Regresando al menú principal", "Salir", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
             menu.Show();
+            
         }
 
         private void btnEnviar_Click(object sender, EventArgs e)
